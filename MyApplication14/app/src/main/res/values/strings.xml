@@ -1,0 +1,53 @@
+<resources>
+    <string name="app_name">値下げラベル印刷デモ v0.00</string>
+
+    <string name="tvTargetPrinter">プリンタ S/N</string>
+    <string name="tvItemCode">JAN</string>
+    <string name="tvItemName">アイテム名</string>
+    <string name="tvItemPrice">価格</string>
+    <string name="tvItemDate">賞味・消費期限</string>
+    <string name="tvPrtAmount">印刷枚数</string>
+    <string name="tvTaxRate">消費税率</string>
+    <string name="tvDiscountRate">割引率(%)</string>
+    <string name="tvNfcMode">NFC Print</string>
+    <string name="tvScanMode">Scan Print</string>
+    <string name="tvFastMode">Fast Print</string>
+
+    <string name="tbTaxOff">8 %</string>
+    <string name="tbTaxOn">10 %</string>
+    <string name="tbNfcModeOff">OFF</string>
+    <string name="tbNfcModeOn">ON</string>
+    <string name="tbScanModeOff">OFF</string>
+    <string name="tbScanModeOn">ON</string>
+    <string name="tbFastModeOff">OFF</string>
+    <string name="tbFastModeOn">ON</string>
+
+
+    <string name="blank"></string>
+
+    <string name="btnPrint">印刷</string>
+    <string name="edTargetPrinter">Not Selected</string>
+    <string name="edDiscountRate">30</string>
+    <string name="edPrtAmount">1</string>
+
+    <!-- メッセージ -->
+    <string name="msgTax08">消費税8%が選択されました。</string>
+    <string name="msgTax10">消費税10%が選択されました。</string>
+    <string name="msgNfcModeOff">NFCモードがOFFになりました。</string>
+    <string name="msgNfcModeOn">NFCモードがONになりました。</string>
+    <string name="msgScanModeOff">ScanモードがOFFになりました。</string>
+    <string name="msgScanModeOn">ScanモードがONになりました。</string>
+    <string name="msgFastModeOff">Single モードがONになりました。</string>
+    <string name="msgFastModeOn">Fast モードがONになりました。</string>
+    <string name="msgNoBtMACaddress">Bluetooth接続先のプリンタとNFCタッチをしてください。</string>
+    <string name="msgNoItemCode">商品情報がありません。JANコードをスキャンしてください。</string>
+    <string name="msgtvLogDefault">商品コードをスキャンしてください。\nプリンタのNFCをタッチしてください。</string>
+
+    <!-- DataWedge用設定-->
+    <!-- DataWedge > Intent Output > Intent Action -->
+    <string name="activity_intent_filter_action">com.dwbasicintent1.ACTION</string>
+    <!-- DataWedge取得データ -->
+    <string name="datawedge_intent_key_source">com.symbol.datawedge.source</string>
+    <string name="datawedge_intent_key_label_type">com.symbol.datawedge.label_type</string>
+    <string name="datawedge_intent_key_data">com.symbol.datawedge.data_string</string>
+</resources>
